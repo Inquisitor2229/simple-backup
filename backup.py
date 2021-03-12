@@ -23,7 +23,7 @@ def zipdir(path, ziph):
                                        os.path.join(path, '..')))
 
 def zipit(dir_list, zip_name):
-    zipf = zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED, compresslevel=9)
+    zipf = zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED, allowZip64=True, compresslevel=9)
     for dir in dir_list:
         zipdir(dir, zipf)
     zipf.close()
