@@ -7,6 +7,7 @@ with open('settings.txt') as f:
         exec(line)
 
 #uncomment this, if want store folders in backup.txt file, one row per folder to backup...
+#save = 5
 #with open('backup.txt') as f:
 #    dir_list = f.readlines()
 #backup_folder = 'E:\\downloads\\'
