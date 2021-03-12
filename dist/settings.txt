@@ -1,0 +1,8 @@
+#list of folders to backup
+dir_list = ['E:\\tmp', 'E:\\Work\\sandbox', 'C:\\ProgramData\\Samsung']
+
+#save backup to
+backup_folder = 'E:\\downloads\\'
+
+#number of copies to save
+save = 5
